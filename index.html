@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Hidden culture selector for future use -->
+    <div style="display: none;">
+        <label for="culture-select">Choose a culture:</label>
+        <select id="culture-select">
+            <option value="FR">French</option>
+            <option value="GB">British</option>
+            <option value="US" selected>American</option>
+            <option value="JP">Japanese</option>
+        </select>
+    </div>
+    <div id="quiz-container" class="quiz-container">
+        <!-- Questions will be dynamically generated here -->
+    </div>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
